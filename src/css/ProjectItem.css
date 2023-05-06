@@ -1,0 +1,63 @@
+.project-item {
+    min-height: 300px;
+    max-width: 90vw;
+    min-width: auto;
+    align-self: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 425px;
+    background-color: #D1D5DB;
+    border-radius: 10px;
+    background-color: #111827;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.project-item img {
+    width: 100%;
+    background-size: contain;
+}
+
+.project-name {
+    font-size: 1.4rem;
+    color: white;
+    font-family: 'Cubano';
+    padding: 0 1rem;
+}
+
+.project-info {
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    color: #ADB9C8;
+    font-family: 'Sofia', sans-serif;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+.tech-used {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 1rem 1rem 1rem;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 1rem;
+}
+
+.tech-item {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tech-item img {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+}

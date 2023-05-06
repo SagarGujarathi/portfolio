@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;900&display=swap');
+
+.nav-bar {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: absolute;
+    width: 80%;
+    z-index: 2;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-family: 'Cubano';
+    color: #FFBD39;
+}
+
+.link-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    font-family: 'Poppins', Arial, sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+    transition-duration: 200ms;
+}
+
+.link:hover {
+    scale: 1.05 !important;
+    color: #FFBD39;
+}
+
+@media (max-width : 800px) {
+    .nav-bar {
+        width: 95vw !important;
+    }
+}
